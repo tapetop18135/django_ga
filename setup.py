@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='django_ga',
-      version='0.1',
+      version='0.2',
       description='A simple Django application to integrate Google Analytics',
       author='Nuttakit Kutparb',
       author_email='a5810032@gmail.com',
