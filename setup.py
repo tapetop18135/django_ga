@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(name='django_ga',
       version='0.1',
@@ -9,6 +9,7 @@ setup(name='django_ga',
       packages=['google_analytics','google_analytics.templatetags',],
       package_data={'google_analytics': ['templates/google_analytics/*.html']},
       keywords=['python', 'ga', 'google', 'analytics', 'django', 'template', 'tag'],
+      setup_requires=['wheel'],
       classifiers=['Development Status :: 4 - Beta',
                    'Environment :: Web Environment',
                    'Intended Audience :: Developers',
